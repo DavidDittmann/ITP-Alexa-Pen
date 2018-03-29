@@ -1,0 +1,25 @@
+Ev3 Links:
+
+
+-------------------------------------------------------------------------------------------
+
+Alexa Allgemein Links:
+
+https://forums.developer.amazon.com/index.html
+https://github.com/alexa
+-------------------------------------------------------------------------------------------
+
+Alexa Skill Links:
+
+https://entwickler.de/online/iot/alexa-skill-579756370.html
+https://developer.amazon.com/de/docs/custom-skills/understanding-custom-skills.html
+https://www.amazon.de/gp/help/customer/display.html?nodeId=201848700
+https://www.youtube.com/watch?v=p9vC7Pt-Yno
+-------------------------------------------------------------------------------------------
+
+Alexa <-> LEGO Links:
+
+https://jaxenter.de/alexa-skills-entwickeln-64751
+https://manuel-rauber.com/2017/05/30/alexa-start-lego-robot-connecting-amazon-alexa-to-lego-mindstorms-ev3/
+https://github.com/jimdrewes/alexa-to-ev3
+-------------------------------------------------------------------------------------------
