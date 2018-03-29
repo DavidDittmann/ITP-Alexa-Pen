@@ -2,6 +2,7 @@ Ev3 Links:
 
 http://www.mindstormsforum.de/viewtopic.php?t=3311
 https://www.lego.com/en-us/mindstorms/mindstormservices/firmware-download-page?assetid={90384455-611A-4258-BC6D-90CEA9CD5108} //Firmware Update
+https://github.com/c4ev3/EV3-API/blob/master/commands.pdf
 -------------------------------------------------------------------------------------------
 
 Alexa Allgemein Links:
