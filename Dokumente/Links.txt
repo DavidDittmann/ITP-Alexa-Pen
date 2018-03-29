@@ -17,6 +17,7 @@ https://entwickler.de/online/iot/alexa-skill-579756370.html
 https://developer.amazon.com/de/docs/custom-skills/understanding-custom-skills.html
 https://www.amazon.de/gp/help/customer/display.html?nodeId=201848700
 https://www.youtube.com/watch?v=p9vC7Pt-Yno
+https://medium.com/iotforall/build-your-first-custom-alexa-skill-in-10-minutes-2d27485727ed
 -------------------------------------------------------------------------------------------
 
 Alexa <-> LEGO Links:
