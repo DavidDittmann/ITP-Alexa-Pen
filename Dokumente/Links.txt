@@ -13,6 +13,7 @@ https://github.com/alexa
 
 Alexa Skill Links:
 
+https://www.codecademy.com/courses/learn-alexa-skills-kit/lessons/intro-to-alexa/exercises/intro-to-alexa-skills?action=resume_content_item&course_redirect=learn-alexa#
 https://entwickler.de/online/iot/alexa-skill-579756370.html
 https://developer.amazon.com/de/docs/custom-skills/understanding-custom-skills.html
 https://www.amazon.de/gp/help/customer/display.html?nodeId=201848700
