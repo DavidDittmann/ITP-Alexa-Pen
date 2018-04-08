@@ -1,1 +1,3 @@
 AWS(Amazon Web Service) - Lambda Problem, da für die Anmeldung eine Kredikarte benötigt wird
+
+AWS Kreditkarten authetifizierung fehlgeschlagen vom AWS-Service aus -> Support kontaktiert (07.04.2018)
