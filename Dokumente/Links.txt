@@ -1,3 +1,9 @@
+General Links:
+https://developer.amazon.com/alexa/console/ask?
+https://eu-west-1.console.aws.amazon.com/lambda/home?region=eu-west-1#
+https://skillinator.io/
+-------------------------------------------------------------------------------------------
+
 Ev3 Links:
 
 http://www.mindstormsforum.de/viewtopic.php?t=3311
@@ -27,4 +33,10 @@ Alexa <-> LEGO Links:
 https://jaxenter.de/alexa-skills-entwickeln-64751
 https://manuel-rauber.com/2017/05/30/alexa-start-lego-robot-connecting-amazon-alexa-to-lego-mindstorms-ev3/
 https://github.com/jimdrewes/alexa-to-ev3
+http://blog.jimdrewes.com/controlling-a-mindstorms-ev3-with-amazon-echo/
+https://github.com/alexa2lego/ev3
 -------------------------------------------------------------------------------------------
+
+Amazon SNS & SQS
+https://eu-west-1.console.aws.amazon.com/sqs/home?region=eu-west-1#queue-browser:selected=https://sqs.eu-west-1.amazonaws.com/697251208257/LegoRoboterQueue;prefix=
+https://us-west-2.console.aws.amazon.com/sns/v2/home?region=us-west-2#/home
