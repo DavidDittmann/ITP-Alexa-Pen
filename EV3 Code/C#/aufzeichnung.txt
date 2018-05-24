@@ -1,0 +1,108 @@
+Connecting...
+Connected... Waiting for Commands...
+NaN
+Message:
+== {
+  "Type" : "Notification",
+  "MessageId" : "1c01cb9b-73fa-5bc1-beb9-981bbcde08a5",
+  "TopicArn" : "arn:aws:sns:eu-west-1:697251208257:LEGO_FHTW",
+  "Subject" : "EV3 Alexa Command",
+  "Message" : "{}",
+  "Timestamp" : "2018-05-24T14:32:04.089Z",
+  "SignatureVersion" : "1",
+  "Signature" : "zGYfgOqRYq8uQl7yU+p7GTyInn3HLR4b+35o/N0eVVoUkf7+4KfoyHJXhxIcbSWpvuCEu04oMoTr8hl0NjuZu1Hct7YjfQ8HTVQuAJ/gahpiAV5W+tewQsseu6h9qj5f6OlTUEi/HIAgRr8QTHxVwgKccND27EN9TThEXu+t++x01m1Fy3nCjfrqKC55P/eVl4P+lUCcsKQ5juagf4xe0U3U8sUDutEanQpzNEPJds/A+lOVvQtV1XwCD9i8iAd7LO5NdUVCJj7q/lClc+W1CjNuwFWxj9JhjbmhigI84r+Q54gdjZoOt1SqYB0rYMPDg7cT8KuBUlJa/yVnvXOJ5A==",
+  "SigningCertURL" : "https://sns.eu-west-1.amazonaws.com/SimpleNotificationService-eaea6120e66ea12e88dcd8bcbddca752.pem",
+  "UnsubscribeURL" : "https://sns.eu-west-1.amazonaws.com/?Action=Unsubscribe&SubscriptionArn=arn:aws:sns:eu-west-1:697251208257:LEGO_FHTW:8749a04c-415b-4f9d-a350-24855b954d7f"
+}
+Found action/value pair of  / .
+Command executed.
+Message:
+== {
+  "Type" : "Notification",
+  "MessageId" : "147a57a1-fa77-5f57-880f-04213550d916",
+  "TopicArn" : "arn:aws:sns:eu-west-1:697251208257:LEGO_FHTW",
+  "Subject" : "EV3 Alexa Command",
+  "Message" : "{\n  \"action\": \"forward\"\n}",
+  "Timestamp" : "2018-05-24T14:32:07.890Z",
+  "SignatureVersion" : "1",
+  "Signature" : "ccYbYjXKeXq/Q+73vCeALLwCV10Z2p7iGFqnLsGTZKgcdCkxRV8m5UcLNwiVzN4IJu63z6NfxqbgW0EQpR6zRnmY91IqDoesT4p+q5qBbjxL56+SccXXxVi+k1EhJl3xTEicZI6w3wp+2MrCUNjCz5NIlvtBMMvSZjrkeiRAdGtJmUaVtEuJtGHDhdO0Jy0YB8AAnodKfrIyOpq8ogJNv+Y3m18nR41YUhPoh7x9aLAs7GsYAF9qW2/jVczQljHYcgfqHMKvlwtvp4b172i3jzTYEP4xzXygbYrK0Ola9unIbLS4F+jF5sWZaNINFdyJTyUDFWiq6RqgXi5npsexJw==",
+  "SigningCertURL" : "https://sns.eu-west-1.amazonaws.com/SimpleNotificationService-eaea6120e66ea12e88dcd8bcbddca752.pem",
+  "UnsubscribeURL" : "https://sns.eu-west-1.amazonaws.com/?Action=Unsubscribe&SubscriptionArn=arn:aws:sns:eu-west-1:697251208257:LEGO_FHTW:8749a04c-415b-4f9d-a350-24855b954d7f"
+}
+Found action/value pair of  / .
+Command executed.
+Message:
+== {
+  "Type" : "Notification",
+  "MessageId" : "0e9e2ec4-2f50-5494-885c-7d44e07e2dfd",
+  "TopicArn" : "arn:aws:sns:eu-west-1:697251208257:LEGO_FHTW",
+  "Subject" : "EV3 Alexa Command",
+  "Message" : "{\n  \"action\": \"danke\"\n}",
+  "Timestamp" : "2018-05-24T14:32:14.565Z",
+  "SignatureVersion" : "1",
+  "Signature" : "A0A97Vej84nAWpZoaFqsSWdym/JoBBDrprOjOKYN3azBDypehwwTLprlDGAm5zIkBcsc4zmTDXL6CjP+57+xMtp632j8hJMewpTYTRgMisVOhPCEK74+MYN+kPwaSZCyl02NJfjQcJLDIx9vZl3/ohVAWYPXqxiaqL524/L7S4DbfjrkVlcnGdHWKv1DGoQ04vIx6TSHUYhh1bbSPTJuF1+t0mDkytP/U4h5lYPwh67JQmF1e0WmOUU4u1ClXHqpXVLEUOJVLp14zY9NX8LtKCJfvAS7oicCFWKaT/g97YM+6OzWwxFrqu/xXiQOS+Yh5WaKQbr4wkYiSqZ5e86CAA==",
+  "SigningCertURL" : "https://sns.eu-west-1.amazonaws.com/SimpleNotificationService-eaea6120e66ea12e88dcd8bcbddca752.pem",
+  "UnsubscribeURL" : "https://sns.eu-west-1.amazonaws.com/?Action=Unsubscribe&SubscriptionArn=arn:aws:sns:eu-west-1:697251208257:LEGO_FHTW:8749a04c-415b-4f9d-a350-24855b954d7f"
+}
+Found action/value pair of  / .
+Command executed.
+Message:
+== {
+  "Type" : "Notification",
+  "MessageId" : "0a0bd115-e583-5275-8635-82952ab139d5",
+  "TopicArn" : "arn:aws:sns:eu-west-1:697251208257:LEGO_FHTW",
+  "Subject" : "EV3 Alexa Command",
+  "Message" : "{\n  \"action\": \"right\"\n}",
+  "Timestamp" : "2018-05-24T14:32:18.935Z",
+  "SignatureVersion" : "1",
+  "Signature" : "TTr7vOOQFxi3vnM4IyLt9b02tMSZQEC5Mv4AeVNNYkcnytTPXnGQWYtQ5AMi+n36RRPJfb5WS5YCWjVA0bHQio87PMoqdlCnoSA33GTQU9L72UGTRZ25srW/EJkHa1JmIIvu/d7325o6FOn0pa0PE5G4nnNBxlmI23r5SoekjCiOdeUVEQ0JYwnqjssOXOaLeqrb2qr5p8exC2ukLXIjT7tB7lZeqWcnye79YQRzuqJfQqwV4ljcBU76Uoo6792jjbYsgTn7cYuuQj4Ui5YQWWzgAIx3OeqJzbzj4/TKNZX5clWHqdtbpScShtTVaPpI7oNO1XLp5sWSWZDfB6QoRg==",
+  "SigningCertURL" : "https://sns.eu-west-1.amazonaws.com/SimpleNotificationService-eaea6120e66ea12e88dcd8bcbddca752.pem",
+  "UnsubscribeURL" : "https://sns.eu-west-1.amazonaws.com/?Action=Unsubscribe&SubscriptionArn=arn:aws:sns:eu-west-1:697251208257:LEGO_FHTW:8749a04c-415b-4f9d-a350-24855b954d7f"
+}
+Found action/value pair of  / .
+Command executed.
+Message:
+== {
+  "Type" : "Notification",
+  "MessageId" : "e7d941c6-dd62-5a89-a26d-124612550863",
+  "TopicArn" : "arn:aws:sns:eu-west-1:697251208257:LEGO_FHTW",
+  "Subject" : "EV3 Alexa Command",
+  "Message" : "{\n  \"action\": \"left\"\n}",
+  "Timestamp" : "2018-05-24T14:32:23.451Z",
+  "SignatureVersion" : "1",
+  "Signature" : "GvYY2yHdJgk+weEvo5sR61YhASgYevHDs+SD1yiS8AdQdCsTZ5cZMey97RNeRgPpBPvn+0VJ4nzLWhispai9NtdmR50IvhAJPqAA9UPbbwjZaUnMwkF2J9tNteczK79AoO8Bo4FONA6EjHOg5+S0fz+E0t0IoeW2AHHuGCLS1WdnRgBdF7x1TgLps2Iw0BZzzMO2VymkaspJfyMsXZ0s9LbWsJGlpVAzvtsHLHLpbwoqA8dSrI5cq+R9fquxo0EQ05d79vxfD9TF2N4PfcoamNC+EP3En9a1q5QmMASgMBsdf7QsKYiNcMcOeYToyVQVrhyg8BNi1xA58v0mFc8IZg==",
+  "SigningCertURL" : "https://sns.eu-west-1.amazonaws.com/SimpleNotificationService-eaea6120e66ea12e88dcd8bcbddca752.pem",
+  "UnsubscribeURL" : "https://sns.eu-west-1.amazonaws.com/?Action=Unsubscribe&SubscriptionArn=arn:aws:sns:eu-west-1:697251208257:LEGO_FHTW:8749a04c-415b-4f9d-a350-24855b954d7f"
+}
+Found action/value pair of  / .
+Command executed.
+Message:
+== {
+  "Type" : "Notification",
+  "MessageId" : "2e7bbc10-8a0c-5664-bc09-ef9045316b5b",
+  "TopicArn" : "arn:aws:sns:eu-west-1:697251208257:LEGO_FHTW",
+  "Subject" : "EV3 Alexa Command",
+  "Message" : "{\n  \"action\": \"Aber aus\"\n}",
+  "Timestamp" : "2018-05-24T14:32:29.953Z",
+  "SignatureVersion" : "1",
+  "Signature" : "xT8+wf2ntgaUQo/OfvLSi33fUeY5SJSyQhzsK2gkVSJDXsT7aOp/t7WyHeWOuWRLPYOXSteTf00DhXhJdnMaPDEUrY8JwPAtxHIXViGmet8N5OO1Pnm3NjhlLBmLUMQu6qYYr2XO7CED991hIab5S4Pdr7JTyP0yW7Me3ySME13gxdCwV/N5WYX5qBf3RmyPNjuT3OATHub3WKV5iA0wZJ2mbR30y5WZfi2Mul8NTvAyHq259IQRbgIFicKe9S0Q/7vHFEbpy8rjyj/A9KrLUSfVyODnZMYHsDMrS/5CEKOkelF5dSZFLtEMFQtAuFYKc4P+jhZVNNFGyrwmoVlhTg==",
+  "SigningCertURL" : "https://sns.eu-west-1.amazonaws.com/SimpleNotificationService-eaea6120e66ea12e88dcd8bcbddca752.pem",
+  "UnsubscribeURL" : "https://sns.eu-west-1.amazonaws.com/?Action=Unsubscribe&SubscriptionArn=arn:aws:sns:eu-west-1:697251208257:LEGO_FHTW:8749a04c-415b-4f9d-a350-24855b954d7f"
+}
+Found action/value pair of  / .
+Command executed.
+Message:
+== {
+  "Type" : "Notification",
+  "MessageId" : "d33ff407-162c-5238-89bf-a787d96d3b3b",
+  "TopicArn" : "arn:aws:sns:eu-west-1:697251208257:LEGO_FHTW",
+  "Subject" : "EV3 Alexa Command",
+  "Message" : "{}",
+  "Timestamp" : "2018-05-24T14:32:33.736Z",
+  "SignatureVersion" : "1",
+  "Signature" : "zHNMPwqxW/mEoOtj2SvzjsfhprmA3ruAjHtuAhgjDUmCamYuyHEvTuD8vWJ1OVIfT0aK+szFkFlgiioIv6i8vOjU6tsnFP7DJiP8OIy53O5eLKlpTBLsQ/ACxRMpsaGUdSGlUlLYkdirylDMoJRO0swntiFEqi4sGf1yBNUwU/9+7xIbaqopPHSzv3jElQQxFXddX/3zVG4mHRtbYTFSBAPL+hxw9XGQXED57OLDCQHWdxSDd26gj136MqHl/hnEQc9wf0088msqedYDIt2X/jc2LihgMDPhfbK96s1EM07qHTZVN4Xq/BG/hbo7CgJJmQj6W15gq3FOwDAXZK+rzg==",
+  "SigningCertURL" : "https://sns.eu-west-1.amazonaws.com/SimpleNotificationService-eaea6120e66ea12e88dcd8bcbddca752.pem",
+  "UnsubscribeURL" : "https://sns.eu-west-1.amazonaws.com/?Action=Unsubscribe&SubscriptionArn=arn:aws:sns:eu-west-1:697251208257:LEGO_FHTW:8749a04c-415b-4f9d-a350-24855b954d7f"
+}
+Found action/value pair of  / .
+Command executed.
