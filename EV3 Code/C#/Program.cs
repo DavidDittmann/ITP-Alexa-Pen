@@ -15,24 +15,25 @@ namespace AlexaToEv3
     public class MainClass
     {
         #region CONSTANTS
-        
+
         private const int TIMEOUT_IN_MS = 125;
+        private const double STEPS_PER_DEGREE_TURN = 3.5;
         private const string ACCESS_KEY_ENV_NAME = "AWS_ACCESS_KEY";
         private const string SECRET_KEY_ENV_NAME = "AWS_SECRET_KEY";
         private const string EV3_PORT_KEY = "Ev3Port";
         private const string AWS_SQS_ADDRESS_KEY = "AwsSqsAddress";
-        
+
         #endregion
-        
+
         #region PRIVATE VARIABLES
-        
+
         private static string _ev3Port;
         private static string _awsSqsAddress;
         private static AmazonSQSClient _sqsClient;
         private static Brick _brick;
 
         #endregion
-        
+
         public static void Main(string[] args)
         {
             Configure();
@@ -45,7 +46,7 @@ namespace AlexaToEv3
         {
             _brick = new Brick(new BluetoothCommunication(_ev3Port));
             _brick.BrickChanged += _brick_BrickChanged;
-            
+
             System.Console.WriteLine("Connecting...");
             await _brick.ConnectAsync();
 
@@ -127,24 +128,38 @@ namespace AlexaToEv3
 
         private static async void MoveLeft(Ev3Command command)
         {
-            Console.WriteLine("Moving Left...");
+            Console.WriteLine("\n\nMoving Left...\n\n");
+
+            uint degrees = 90;
+            if (!string.IsNullOrWhiteSpace(command.Value))
+            {
+                uint.TryParse(command.Value, out degrees);
+                Console.WriteLine("\nValue: {0}...\n\n", degrees);
+            }
 
             _brick.BatchCommand.Initialize(CommandType.DirectNoReply);
             _brick.BatchCommand.SetMotorPolarity(OutputPort.B, Polarity.Backward);
             _brick.BatchCommand.SetMotorPolarity(OutputPort.C, Polarity.Forward);
-            _brick.BatchCommand.StepMotorAtPower(OutputPort.B, 100, 180, false);
-            _brick.BatchCommand.StepMotorAtPower(OutputPort.C, 100, 180, false);
+            _brick.BatchCommand.StepMotorAtPower(OutputPort.B, 100, Convert.ToUInt32(STEPS_PER_DEGREE_TURN*degrees), false);
+            _brick.BatchCommand.StepMotorAtPower(OutputPort.C, 100, Convert.ToUInt32(STEPS_PER_DEGREE_TURN * degrees), false);
             await _brick.BatchCommand.SendCommandAsync();
         }
         private static async void MoveRight(Ev3Command command)
         {
-            Console.WriteLine("Moving Right...");
+            Console.WriteLine("\n\nMoving Right...\n\n");
+
+            uint degrees = 90;
+            if (!string.IsNullOrWhiteSpace(command.Value))
+            {
+                uint.TryParse(command.Value, out degrees);
+                Console.WriteLine("\nValue: {0}...\n\n", degrees);
+            }
 
             _brick.BatchCommand.Initialize(CommandType.DirectNoReply);
             _brick.BatchCommand.SetMotorPolarity(OutputPort.B, Polarity.Forward);
             _brick.BatchCommand.SetMotorPolarity(OutputPort.C, Polarity.Backward);
-            _brick.BatchCommand.StepMotorAtPower(OutputPort.B, 100, 180, false);
-            _brick.BatchCommand.StepMotorAtPower(OutputPort.C, 100, 180, false);
+            _brick.BatchCommand.StepMotorAtPower(OutputPort.B, 100, Convert.ToUInt32(STEPS_PER_DEGREE_TURN * degrees), false);
+            _brick.BatchCommand.StepMotorAtPower(OutputPort.C, 100, Convert.ToUInt32(STEPS_PER_DEGREE_TURN * degrees), false);
             await _brick.BatchCommand.SendCommandAsync();
         }
 
@@ -210,7 +225,7 @@ namespace AlexaToEv3
             var appSettings = ConfigurationManager.AppSettings;
             _ev3Port = "COM3";
             _awsSqsAddress = "https://sqs.eu-west-1.amazonaws.com/697251208257/Test2Queue";
-            
+
             string accessKey = Environment.GetEnvironmentVariable(ACCESS_KEY_ENV_NAME);
             string secretKey = Environment.GetEnvironmentVariable(SECRET_KEY_ENV_NAME);
 
